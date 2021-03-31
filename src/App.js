@@ -8,7 +8,8 @@ import GitInfo from 'react-git-info/macro';
 
 function App() {
   const gitInfo = GitInfo();
-  console.info(`Git commit hash: ${gitInfo.commit.shortHash}, commit date: ${gitInfo.commit.date}`);
+  const gitHashURL = `https://github.com/briandesousa/web-vitals-demo/commit/${gitInfo.commit.shortHash}`;
+  console.info(`[Version Info] ${gitHashURL} committed on ${gitInfo.commit.date}`);
 
   return (
     <main>
