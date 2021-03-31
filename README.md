@@ -12,3 +12,9 @@ To run the site locally:
 yarn install
 yarn start
 ```
+
+To deploy the latest code to the GitHub pages project site:
+
+```
+yarn deploy
+```
