@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/web-vitals-demo/static/css/main.e69e9404.chunk.css",
-    "main.js": "/web-vitals-demo/static/js/main.ce41e655.chunk.js",
-    "main.js.map": "/web-vitals-demo/static/js/main.ce41e655.chunk.js.map",
-    "runtime-main.js": "/web-vitals-demo/static/js/runtime-main.c9b1683b.js",
-    "runtime-main.js.map": "/web-vitals-demo/static/js/runtime-main.c9b1683b.js.map",
-    "static/js/2.eb77aac6.chunk.js": "/web-vitals-demo/static/js/2.eb77aac6.chunk.js",
-    "static/js/2.eb77aac6.chunk.js.map": "/web-vitals-demo/static/js/2.eb77aac6.chunk.js.map",
-    "static/js/3.f207cd4e.chunk.js": "/web-vitals-demo/static/js/3.f207cd4e.chunk.js",
-    "static/js/3.f207cd4e.chunk.js.map": "/web-vitals-demo/static/js/3.f207cd4e.chunk.js.map",
+    "main.css": "/web-vitals-demo/static/css/main.9451656f.chunk.css",
+    "main.js": "/web-vitals-demo/static/js/main.6f21cd34.chunk.js",
+    "main.js.map": "/web-vitals-demo/static/js/main.6f21cd34.chunk.js.map",
+    "runtime-main.js": "/web-vitals-demo/static/js/runtime-main.ff4129e1.js",
+    "runtime-main.js.map": "/web-vitals-demo/static/js/runtime-main.ff4129e1.js.map",
+    "static/js/2.654a2d58.chunk.js": "/web-vitals-demo/static/js/2.654a2d58.chunk.js",
+    "static/js/2.654a2d58.chunk.js.map": "/web-vitals-demo/static/js/2.654a2d58.chunk.js.map",
+    "static/js/3.f6f18147.chunk.js": "/web-vitals-demo/static/js/3.f6f18147.chunk.js",
+    "static/js/3.f6f18147.chunk.js.map": "/web-vitals-demo/static/js/3.f6f18147.chunk.js.map",
     "index.html": "/web-vitals-demo/index.html",
-    "static/css/main.e69e9404.chunk.css.map": "/web-vitals-demo/static/css/main.e69e9404.chunk.css.map",
-    "static/js/2.eb77aac6.chunk.js.LICENSE.txt": "/web-vitals-demo/static/js/2.eb77aac6.chunk.js.LICENSE.txt"
+    "static/css/main.9451656f.chunk.css.map": "/web-vitals-demo/static/css/main.9451656f.chunk.css.map",
+    "static/js/2.654a2d58.chunk.js.LICENSE.txt": "/web-vitals-demo/static/js/2.654a2d58.chunk.js.LICENSE.txt",
+    "static/media/header-background.4052223f.png": "/web-vitals-demo/static/media/header-background.4052223f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c9b1683b.js",
-    "static/js/2.eb77aac6.chunk.js",
-    "static/css/main.e69e9404.chunk.css",
-    "static/js/main.ce41e655.chunk.js"
+    "static/js/runtime-main.ff4129e1.js",
+    "static/js/2.654a2d58.chunk.js",
+    "static/css/main.9451656f.chunk.css",
+    "static/js/main.6f21cd34.chunk.js"
   ]
 }
