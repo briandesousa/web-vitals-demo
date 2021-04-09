@@ -2,7 +2,7 @@
   "name": "web-vitals-demo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://briandesousa.github.com/web-vitals-demo",
+  "homepage": "/web-vitals-demo/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
