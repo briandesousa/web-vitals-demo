@@ -1,10 +1,12 @@
 import './App.css';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Redirect } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import OurWorkPage from './components/OurWorkPage';
 import GetEstimatePage from './components/GetEstimatePage';
 import NavBar from './components/common/NavBar';
 import GitInfo from 'react-git-info/macro';
+
+import headerBackground from './images/header-background.png';
 
 function App() {
   const gitInfo = GitInfo();
@@ -13,13 +15,26 @@ function App() {
 
   return (
     <main>
-        <h1>Northern Getaway Backyard Solutions</h1>
-        <NavBar />
-        <Switch>
-          <Route path="/" component={HomePage} exact />
-          <Route path="/ourwork" component={OurWorkPage} />
-          <Route path="/getestimate" component={GetEstimatePage} />
-        </Switch>
+        <header style={{backgroundImage: `url(${headerBackground})`}}>
+          <div className="wrapper">
+            <h1>Northern Getaway Backyard Solutions</h1>
+          </div>
+        </header>
+        <nav>
+          <div className="wrapper">          
+            <NavBar />
+          </div>
+        </nav>
+        <section id="main">
+          <Switch>
+            <Route exact path="/">
+                <Redirect to="/home" />
+            </Route>
+            <Route path="/home" component={HomePage} exact />
+            <Route path="/ourwork" component={OurWorkPage} />
+            <Route path="/getestimate" component={GetEstimatePage} />
+          </Switch>
+        </section>
     </main>
   );
 }

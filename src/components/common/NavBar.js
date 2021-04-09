@@ -1,20 +1,21 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+
+import './NavBar.css';
 
 function NavBar() {
+
   return (
-    <nav>
       <ul>
           <li>
-              <Link to="/">Home</Link>
+              <NavLink to="/home" activeClassName="activeNavItem">Home</NavLink>
           </li>
           <li>
-              <Link to="/ourwork">Our Work</Link>
+              <NavLink to="/ourwork" activeClassName="activeNavItem">Our Work</NavLink>
           </li>
           <li>
-              <Link to="/getestimate">Get Estimate</Link>
+              <NavLink to="/getestimate" activeClassName="activeNavItem">Get Estimate</NavLink>
           </li>
       </ul>
-    </nav>
   );
 }
 

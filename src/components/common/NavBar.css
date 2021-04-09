@@ -1,0 +1,22 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(1, 21, 34);
+}
+
+li .activeNavItem {
+    background-color: rgb(142, 187, 214);
+}

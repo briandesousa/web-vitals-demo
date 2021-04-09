@@ -2,9 +2,9 @@ import React from 'react';
 
 function HomePage() {
   return (
-    <React.Fragment>
+    <section>
       <p>Welcome backyard dweller!</p>
-    </React.Fragment>
+    </section>
   );
 }
 
