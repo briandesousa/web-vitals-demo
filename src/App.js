@@ -7,6 +7,7 @@ import NavBar from './components/common/NavBar';
 import GitInfo from 'react-git-info/macro';
 
 import headerBackground from './images/header-background.png';
+import WebVitalsBar from './components/common/WebVitalsBar';
 
 function App() {
   const gitInfo = GitInfo();
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <main>
+        <WebVitalsBar />
         <header style={{backgroundImage: `url(${headerBackground})`}}>
           <div className="wrapper">
             <h1>Northern Getaway Backyard Solutions</h1>
