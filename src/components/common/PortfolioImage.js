@@ -13,9 +13,11 @@ function PortfolioImage(props) {
   }
 
   useEffect(() => {
-    setTimeout(() => {
-      setRender(true)
-    }, props.renderDelay);
+    const timer = setTimeout(
+      () => setRender(true),
+      props.renderDelay
+    );
+    return () => clearTimeout(timer);
   }, [props.renderDelay]);
 
   return (
