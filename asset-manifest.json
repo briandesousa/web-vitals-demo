@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/web-vitals-demo/static/css/main.7e890b17.chunk.css",
-    "main.js": "/web-vitals-demo/static/js/main.c2360c48.chunk.js",
-    "main.js.map": "/web-vitals-demo/static/js/main.c2360c48.chunk.js.map",
+    "main.css": "/web-vitals-demo/static/css/main.75b1b6b2.chunk.css",
+    "main.js": "/web-vitals-demo/static/js/main.2eb73c25.chunk.js",
+    "main.js.map": "/web-vitals-demo/static/js/main.2eb73c25.chunk.js.map",
     "runtime-main.js": "/web-vitals-demo/static/js/runtime-main.b5a5d846.js",
     "runtime-main.js.map": "/web-vitals-demo/static/js/runtime-main.b5a5d846.js.map",
-    "static/js/2.1a5b2bc3.chunk.js": "/web-vitals-demo/static/js/2.1a5b2bc3.chunk.js",
-    "static/js/2.1a5b2bc3.chunk.js.map": "/web-vitals-demo/static/js/2.1a5b2bc3.chunk.js.map",
+    "static/js/2.9dad0566.chunk.js": "/web-vitals-demo/static/js/2.9dad0566.chunk.js",
+    "static/js/2.9dad0566.chunk.js.map": "/web-vitals-demo/static/js/2.9dad0566.chunk.js.map",
     "index.html": "/web-vitals-demo/index.html",
-    "static/css/main.7e890b17.chunk.css.map": "/web-vitals-demo/static/css/main.7e890b17.chunk.css.map",
-    "static/js/2.1a5b2bc3.chunk.js.LICENSE.txt": "/web-vitals-demo/static/js/2.1a5b2bc3.chunk.js.LICENSE.txt",
+    "static/css/main.75b1b6b2.chunk.css.map": "/web-vitals-demo/static/css/main.75b1b6b2.chunk.css.map",
+    "static/js/2.9dad0566.chunk.js.LICENSE.txt": "/web-vitals-demo/static/js/2.9dad0566.chunk.js.LICENSE.txt",
     "static/media/header-background.4052223f.png": "/web-vitals-demo/static/media/header-background.4052223f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b5a5d846.js",
-    "static/js/2.1a5b2bc3.chunk.js",
-    "static/css/main.7e890b17.chunk.css",
-    "static/js/main.c2360c48.chunk.js"
+    "static/js/2.9dad0566.chunk.js",
+    "static/css/main.75b1b6b2.chunk.css",
+    "static/js/main.2eb73c25.chunk.js"
   ]
 }
