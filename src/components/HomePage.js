@@ -29,7 +29,9 @@ function HomePage() {
           <p>Do you peek over your neighbor's fence and think 'I wish I had that'?</p>
           <p>Are you tired of looking out your back window at the same old turf paradise?</p>
           <p>You have arrived at the right place. We here at Northern Getaway Backyward Solutions want to turn your vomit-inducing embarrassment of a backyard into the ultimate pandemic-era getaway.</p>
-
+          <p>We will work with you to develop a masterful architectural plan to turn your dreams into reality. Then we will start to clear out the cob<strong>web</strong>s and re<strong>vital</strong>ize your backyard space.</p>
+          <p>The best part is that we will only take a modest cut of all that cash you have managed to save up throughout the pandemic.</p>
+          <p>Check out <a href="/#/ourwork">our work</a> to see it and believe it!</p>
         </div>
       </div>
       
