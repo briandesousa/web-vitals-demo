@@ -1,0 +1,22 @@
+.loading-indciator {
+    font-weight: bold;
+}
+
+.welcome-content img {
+    float: left;
+    clear: both;
+    width: 20%;
+    margin: 0.4em 2em 1.6em 0;
+}
+
+.welcome-content h2 {
+    font-size: 2em;
+}
+
+.welcome-content p {
+    font-size: 1.4em;
+}
+
+.hidden {
+    display: none;
+}
