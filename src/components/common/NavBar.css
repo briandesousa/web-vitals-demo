@@ -20,3 +20,14 @@ li a {
 li .activeNavItem {
     background-color: rgb(142, 187, 214);
 }
+
+/* full width layout on small screen */
+@media only screen and (max-width: 1000px) {
+    li {
+        display: block;
+    }
+
+    li a {
+        display: block;
+    }
+}

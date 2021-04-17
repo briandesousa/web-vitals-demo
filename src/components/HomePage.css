@@ -2,19 +2,39 @@
     font-weight: bold;
 }
 
-.welcome-content img {
-    float: left;
-    clear: both;
-    width: 20%;
-    margin: 0.4em 2em 1.6em 0;
-}
-
 .welcome-content h2 {
     font-size: 2em;
 }
 
 .welcome-content p {
-    font-size: 1.4em;
+    font-size: 1.3em;
+} 
+
+/* full width layout on small screen */
+@media only screen and (max-width: 1000px) {
+    .welcome-content .welcome-images {
+        display: none;
+    }
+}
+
+/* fixed width centered layout on large screen */
+@media only screen and (min-width: 1000px) {
+    .welcome-content .welcome-images {
+        padding-top: 2em;
+        float: right;
+        width: 20%;
+    }
+
+    .welcome-content .welcome-text { 
+        float: left;
+        width: 80%;
+        padding-left: 1em;
+    }
+
+    .welcome-content .welcome-images img {
+        width: 100%;
+        margin: 0.4em 2em 1.6em 0;
+    }
 }
 
 .hidden {
