@@ -18,16 +18,12 @@ function HomePage() {
   return (
     <section>
       <div className="welcome-content">
-        <div className="welcome-images">
-          <img src="images/backyard1.jpg" />
-          <img src="images/backyard2.jpg" />
-        </div>
         <div className="welcome-text">
-          <h2>Welcome backyard dweller!</h2>
           <div className={`loading-indicator ${contentLoaded ? 'hidden' : ''}`}>
             Loading...
           </div>
           <div className={`${contentLoaded ? '' : 'hidden'}`}>
+            <h2>Welcome backyard dweller!</h2>
             <p>Is your backyard in disarray?</p>
             <p>Do you peek over your neighbor's fence and think 'I wish I had that'?</p>
             <p>Are you tired of looking out your back window at the same old turf paradise?</p>
@@ -37,6 +33,7 @@ function HomePage() {
             <p>Check out <a href="/#/ourwork">our work</a> to see it and believe it!</p>
           </div>
         </div>
+        
       </div>
       
       
